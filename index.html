@@ -23,8 +23,8 @@
         <h1>Mark-It-Down</h1>
       </header>
       <div class="d-flex justify-content-center m-5">
-        <button v-on:click="resetAll" class="m-1">Reset</button>
         <button v-on:click="marked" class="m-1">Convert to Markdown</button>
+        <button v-on:click="copyAll" class="m-1">Copy to Clipboard</button>
       </div>
       <div class="d-flex justify-content-center m-5">
         <textarea :value="input" id="input" rows="10"></textarea>

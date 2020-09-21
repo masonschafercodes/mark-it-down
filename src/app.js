@@ -11,9 +11,12 @@ new Vue({
       this.input = document.getElementById("input").value;
       document.getElementById("content").innerHTML = marked(this.input);
     },
-    resetAll: function () {
-      this.input = "# Mark-It-Down";
-      document.getElementById("content").innerHTML = marked(this.input);
-    },
+    copyAll: function() {
+      var copyText = document.getElementById('input');
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("Copied the Markdown");
+    }
   },
 });
