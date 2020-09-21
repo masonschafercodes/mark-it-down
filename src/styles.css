@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 textarea {
     resize: none; 
-    box-shadow: 5px 5px 8px#2c3e50;
+    box-shadow: 5px 5px 8px #2c3e50;
     width: 50%;
     font-family: 'PT Sans', sans-serif;
 }
