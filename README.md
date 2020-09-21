@@ -7,4 +7,4 @@ Here are the resources I used when making `Mark-It-Down` :
 - [https://marked.js.org/](https://marked.js.org/)
 - [https://vuejs.org/](https://vuejs.org/)
 
-Oh... and I wrote this whole README in `Mark-It-Down` 😁
+Oh... and I wrote this whole README with `Mark-It-Down` 😁
